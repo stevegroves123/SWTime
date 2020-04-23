@@ -59,7 +59,7 @@ struct ContentView: View {
                 }
             
                 .focusable(true)
-                .digitalCrownRotation($scrollAmount, from: 0, through: 7, by: 1, sensitivity: .low, isContinuous: true)
+                .digitalCrownRotation($scrollAmount, from: 0, through: 8, by: 1, sensitivity: .low, isContinuous: true)
         }
     }
 }
