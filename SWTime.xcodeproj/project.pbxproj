@@ -16,6 +16,7 @@
 		4FB5A7262443994800ECE9AF /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5A7252443994800ECE9AF /* ExtensionDelegate.swift */; };
 		4FB5A7282443994900ECE9AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB5A7272443994900ECE9AF /* Assets.xcassets */; };
 		4FB5A72B2443994900ECE9AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FB5A72A2443994900ECE9AF /* Preview Assets.xcassets */; };
+		4FB5A73B2443999200ECE9AF /* Advert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5A73A2443999200ECE9AF /* Advert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		4FB5A7272443994900ECE9AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FB5A72A2443994900ECE9AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4FB5A72C2443994900ECE9AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FB5A73A2443999200ECE9AF /* Advert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				4FB5A7212443994800ECE9AF /* ContentView.swift */,
+				4FB5A73A2443999200ECE9AF /* Advert.swift */,
 				4FB5A7232443994800ECE9AF /* HostingController.swift */,
 				4FB5A7252443994800ECE9AF /* ExtensionDelegate.swift */,
 				4FB5A7272443994900ECE9AF /* Assets.xcassets */,
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FB5A7242443994800ECE9AF /* HostingController.swift in Sources */,
+				4FB5A73B2443999200ECE9AF /* Advert.swift in Sources */,
 				4FB5A7222443994800ECE9AF /* ContentView.swift in Sources */,
 				4FB5A7262443994800ECE9AF /* ExtensionDelegate.swift in Sources */,
 			);
