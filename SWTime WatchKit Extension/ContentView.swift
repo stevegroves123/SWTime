@@ -25,7 +25,7 @@ struct ContentView: View {
     
     var timeFormat: DateFormatter {
         let formatter = DateFormatter()
-        formatter.dateFormat = "hh:mm:ss a"
+        formatter.dateFormat = "dd/MM/yy \n\t\t hh:mm:ss a"
         return formatter
     }
     
@@ -41,7 +41,7 @@ struct ContentView: View {
     var body: some View {
         ZStack(alignment: .center) {
             VStack(alignment: .trailing) {
-                Advert()
+//                Advert()
                 Text("\(timeString(date: date))")
                     .multilineTextAlignment(.center)
                     .font(.largeTitle)
